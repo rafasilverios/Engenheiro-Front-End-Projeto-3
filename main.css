@@ -40,7 +40,7 @@ body {
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-catalogo .nav-link.active:hover {
     color: #fff;
 }
 
@@ -110,5 +110,9 @@ footer .container a {
 @media screen and (max-width: 767px) {
     .carousel-item img {
         height: 280px;
+    }
+
+    .border-ge {
+        margin-top: 32px;
     }
 }
